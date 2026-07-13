@@ -1,4 +1,4 @@
-# tauridev
+ # tauridev
 
 AI生成コード・外注コードの検証・監査（再現 → 原因 → 修正 → 検証ログ）と、
 Rust/Tauri による Windows local-first デスクトップアプリ開発をしています。
