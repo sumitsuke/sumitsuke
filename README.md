@@ -53,3 +53,4 @@ Rust / Tauri ・ React / TypeScript ・ SQLite ・ Windows local-first（ロー�
 ## 相談先
 
 **[lit.link/tauridev](https://lit.link/tauridev)** — 診断・修正・開発のご相談はこちらから（テキスト完結・通話なし）
+
