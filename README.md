@@ -1,11 +1,13 @@
- # tauridev
+# Sumitsuke
+
+**サイト → [sumitsuke.jp](https://sumitsuke.jp/)**（受託開発・検証の案内と、実験の記録 Lab）
 
 AI生成コード・外注コードの検証・監査（再現 → 原因 → 修正 → 検証ログ）と、
 Rust/Tauri による Windows local-first デスクトップアプリ開発をしています。
 
 Verification & audit of AI-generated code (reproduce → root-cause → fix → verification logs), and Windows local-first desktop apps in Rust/Tauri.
 
-**ご相談はこちら → [lit.link/tauridev](https://lit.link/tauridev)**（テキスト完結・通話なし）
+**ご相談はこちら → [sumitsuke.jp/works/contact/](https://sumitsuke.jp/works/contact/)**（テキスト完結・通話なし）
 
 ---
 
@@ -36,9 +38,9 @@ AIコーディングを実装に多用しつつ、AIの出力を鵜呑みにし�
 
 再現可能な実測・監査の公開リポジトリ（ピン留め参照）:
 
-- [llm-audit-nondeterminism](https://github.com/axiom-pro/llm-audit-nondeterminism) — 同じコードをローカルLLMにN回監査させたときの指摘の揺れ（反復非決定性）と多数決の落とし穴を実測する再現キット
-- [free-tier-vectordb-bench](https://github.com/axiom-pro/free-tier-vectordb-bench) — 無料枠だけで4つのベクトルDBへ同一RAGを流し、品質・レイテンシ・律速ユニットを再現可能に実測するハーネス
-- [zenn-content](https://github.com/axiom-pro/zenn-content) — Zenn掲載の実測記事の原稿・図（GitHub連携）
+- [llm-audit-nondeterminism](https://github.com/sumitsuke/llm-audit-nondeterminism) — 同じコードをローカルLLMにN回監査させたときの指摘の揺れ（反復非決定性）と多数決の落とし穴を実測する再現キット
+- [free-tier-vectordb-bench](https://github.com/sumitsuke/free-tier-vectordb-bench) — 無料枠だけで4つのベクトルDBへ同一RAGを流し、品質・レイテンシ・律速ユニットを再現可能に実測するハーネス
+- [zenn-content](https://github.com/sumitsuke/zenn-content) — Zenn掲載の実測記事の原稿・図（GitHub連携）
 
 数値は実測のみ。検証していない数字は書かない方針です。
 
@@ -52,5 +54,5 @@ Rust / Tauri ・ React / TypeScript ・ SQLite ・ Windows local-first（ロー�
 
 ## 相談先
 
-**[lit.link/tauridev](https://lit.link/tauridev)** — 診断・修正・開発のご相談はこちらから（テキスト完結・通話なし）
+**[sumitsuke.jp/works/contact/](https://sumitsuke.jp/works/contact/)** — 診断・修正・開発のご相談はこちらから（テキスト完結・通話なし）
 
