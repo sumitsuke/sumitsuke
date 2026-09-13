@@ -1,6 +1,6 @@
 # Sumitsuke
 
-**サイト → [sumitsuke.jp](https://sumitsuke.jp/)**（受託開発・検証の案内と、実験の記録 Lab）
+**サイト → [sumitsuke.jp](https://sumitsuke.jp/)**（受託開発・検証の案内と、実験の記録 Lab）／記事: [Zenn](https://zenn.dev/tauridev)・[Qiita](https://qiita.com/sumitsuke)
 
 AI生成コード・外注コードの検証・監査（再現 → 原因 → 修正 → 検証ログ）と、
 Rust/Tauri による Windows local-first デスクトップアプリ開発をしています。
