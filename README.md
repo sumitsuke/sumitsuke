@@ -22,8 +22,8 @@ Verification & audit of AI-generated code (reproduce → root-cause → fix → 
 測定系の Windows デスクトップアプリを、設計から配布構成までソロで開発しています。現在**クローズドβ**（v0.2.0-beta.2）。 → [getaxiom.dev](https://getaxiom.dev/)
 
 - Rust 約77,000行 + React/TypeScript 約40,000行（本体のみ）
-- テスト**約3,200件を release 実行で全PASS**（2026-06-23、実行ログで確認）
-- SQLite + アプリ層 AES-256-GCM のローカル暗号化データ層／Rust⇄TS を 102 IPC・自動生成型バインディング（ts-rs）で接続
+- テスト **3,160 件が全 PASS**（2026-06-10 のローカル CI ログ・commit `13638212`。ユニット 1,718＋統合 481＋vitest 961 で二重計上を除いた数え方。数え方しだいで 453〜4,878 に変わる → [数え方の記録](https://sumitsuke.jp/lab/test-count-three-ways/)）
+- SQLite のローカル保存（Elite プランでは選んだ機微フィールドを AES-256-GCM で暗号化・暗号化エクスポート）／Rust⇄TS を 102 IPC・自動生成型バインディング（ts-rs）で接続
 - 外部通信は許可リスト制で、**許可外の送信経路の追加をCIがビルド失敗で止める**（宣言をコードで強制）
 
 AIコーディングを実装に多用しつつ、AIの出力を鵜呑みにしない検証規律を敷いています。実際に検出・修正した AI 起因の欠陥（いずれも commit で検証可能）:
